@@ -14,14 +14,14 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
+      <h1>Hello Mohaan</h1>
       <div>
         <Pie
           data={data}
           subTitle1={subTitle1}
           subTitle2={subTitle2}
-          radius={180}
-          hole={15}
+          radius={80}
+          hole={65}
           colors={colors}
           stroke={1}
           strokeWidth={10}

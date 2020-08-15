@@ -12,6 +12,9 @@ function getAnglePoint(startAngle, endAngle, radius, x, y) {
   return { x1, y1, x2, y2 };
 }
 
+// This work is in progress,
+// useEffect is triggering the path changes repeatedly
+// causing the path drawn to be either null or prev path.
 const SliceC = ({
   fill,
   stroke,
